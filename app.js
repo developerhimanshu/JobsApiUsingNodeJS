@@ -18,6 +18,8 @@ app.use(express.json());
 
 // routes
 app.use("/api/v1/auth", authRoute);
+
+//Here we are passing authentication middleware so that these routes can be accessed by only the registered users.
 app.use("/api/v1/jobs", authentication, jobRoute);
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
