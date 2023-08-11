@@ -1,5 +1,8 @@
 require("dotenv").config();
 require("express-async-errors");
+
+//Extra Security packages
+
 const express = require("express");
 const app = express();
 const connectDB = require("./db/connect");
