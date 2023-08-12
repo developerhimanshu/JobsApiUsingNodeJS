@@ -24,7 +24,7 @@ require("dotenv").config();
 app.use(
   rateLimiter({
     windowMs: 15 * 60 * 1000,
-    mas: 100,
+    max: 100,
   })
 );
 
