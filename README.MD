@@ -67,3 +67,5 @@ Swagger UI
       required: true
       description: the job id
 ```
+
+### Base Url :https://jobs-api-hhdu.onrender.com/api/v1/
